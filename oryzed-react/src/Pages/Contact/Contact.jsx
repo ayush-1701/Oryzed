@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Contact.module.css';
+import Footer from '../../components/Footer/Footer';
 
 const Contact = () => {
   const [phone, setPhone] = useState('');
@@ -31,42 +32,46 @@ const Contact = () => {
   };
 
   return (
-    <section className={styles.contactSection}>
-      <h2>Contact Us</h2>
-      <p>
-        Have questions or need assistance? Reach out to us through the details below. We’ll get back to you as soon as possible.
-      </p>
-      <form className={styles.contactForm} onSubmit={handleSubmit}>
-        <div className={styles.contactInfo}>
-          <div>
-            <label htmlFor="phone">Phone:</label>
-            <input
-              type="text"
-              id="phone"
-              value={phone}
-              onChange={handlePhoneChange}
-              placeholder="Enter your phone number"
-              required
-              maxLength={10}
-            />
+    <div>
+      <section className={styles.contactSection}>
+        <h2>Contact Us</h2>
+        <p>
+          Have questions or need assistance? Reach out to us through the details below. We’ll get back to you as soon as possible.
+        </p>
+        <form className={styles.contactForm} onSubmit={handleSubmit}>
+          <div className={styles.contactInfo}>
+            <div>
+              <label htmlFor="phone">Phone:</label>
+              <input
+                type="text"
+                id="phone"
+                value={phone}
+                onChange={handlePhoneChange}
+                placeholder="Enter your phone number"
+                required
+                maxLength={10}
+              />
+            </div>
+            <div>
+              <label htmlFor="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                value={email}
+                onChange={handleEmailChange}
+                placeholder="Enter your email"
+                required
+              />
+            </div>
           </div>
-          <div>
-            <label htmlFor="email">Email:</label>
-            <input
-              type="email"
-              id="email"
-              value={email}
-              onChange={handleEmailChange}
-              placeholder="Enter your email"
-              required
-            />
-          </div>
-        </div>
-        <button type="submit" disabled={!isValid} className={styles.submitButton}>
-          Submit
-        </button>
-      </form>
-    </section>
+          <button type="submit" disabled={!isValid} className={styles.submitButton}>
+            Submit
+          </button>
+        </form>
+
+      </section>
+      <Footer/>
+    </div>
   );
 };
 

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from './Home.module.css';
 import SearchBar from '../../components/SearchBar/SearchBar';
+import Footer from '../../components/Footer/Footer';
 
 const Home = () => {
   const [results, setResults] = useState([]);
@@ -73,9 +74,10 @@ const Home = () => {
         </div>
       )}
 
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         <p>&copy; 2025 Oryzed. All Rights Reserved.</p>
-      </footer>
+      </footer> */}
+      {/* <Footer /> */}
     </div>
   );
 };

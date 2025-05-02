@@ -7,7 +7,7 @@
 }
 
 html, body, #root {
-    height: auto; /* Allow height to grow with content */
+    height: auto; 
     min-height: 100%; 
     width: 100%;
     overflow-y: auto;

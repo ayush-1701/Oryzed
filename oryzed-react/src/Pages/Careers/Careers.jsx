@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Careers.module.css';
+import Footer from '../../components/Footer/Footer';
 
 const Careers = () => {
   return (
@@ -31,9 +32,10 @@ const Careers = () => {
         </a>
       </section>
 
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         <p>&copy; 2025 Oryzed. All Rights Reserved.</p>
-      </footer>
+      </footer> */}
+      <Footer/>
     </div>
   );
 };

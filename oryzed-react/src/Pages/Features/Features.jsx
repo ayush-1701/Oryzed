@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Features.module.css';
+import Footer from '../../components/Footer/Footer';
 
 const Feature = () => {
   return (
@@ -33,9 +34,7 @@ const Feature = () => {
         </div>
       </section>
 
-      <footer className={styles.footer}>
-        <p>&copy; 2025 Oryzed. All Rights Reserved.</p>
-      </footer>
+      <Footer/>
     </div>
   );
 };

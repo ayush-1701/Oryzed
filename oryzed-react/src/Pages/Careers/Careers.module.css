@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.careerSection {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.careerSection h2 {
+  font-size: 40px;
+  color: #00ffe1;
+  margin-bottom: 20px;
+}
+
+.careerSection p {
+  font-size: 18px;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+  color: #bbbbbb;
+}
+
+.careerSection h3 {
+  font-size: 28px;
+  margin-top: 40px;
+  color: #ffffff;
+}
+
+.careerSection ul {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.careerSection ul li {
+  font-size: 18px;
+  margin-bottom: 12px;
+  position: relative;
+  padding-left: 25px;
+  color: #d0d0d0;
+}
+
+.careerSection ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #00ffe1;
+}
+
+.applyButton {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 32px;
+  background: linear-gradient(135deg, #00ffe1, #0078ff);
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);
+}
+
+.applyButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.7);
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #777777;
+  background-color: #0a0a0a;
+  opacity: 0.7;
+}

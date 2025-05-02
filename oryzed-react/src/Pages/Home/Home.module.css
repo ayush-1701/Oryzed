@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  background-color: #0a0a0a;
+  color: #d0d0d0;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.toolsSection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  padding: 60px;
+  text-align: center;
+}
+
+.toolCard {
+  background: rgba(25, 25, 25, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 30px;
+  backdrop-filter: blur(12px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.05);
+  cursor: pointer;
+}
+
+.toolCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+}
+
+.selected {
+  transform: translateY(-5px); /* Same as hover */
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.4); /* Same as hover */
+}
+
+.toolCard h3 {
+  color: #00ffe1;
+  margin: 10px 0;
+}
+
+.toolCard p {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.searchSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+  width: 60%;
+}
+
+.results {
+  margin-top: 20px;
+  text-align: left;
+  color: #00ffe1;
+}
+
+.resultItem {
+  margin-bottom: 10px;
+  padding: 10px;
+  background: rgba(40, 40, 40, 0.85);
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0, 255, 255, 0.3);
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(10, 10, 10, 0.95);
+  font-size: 14px;
+  color: #555;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}

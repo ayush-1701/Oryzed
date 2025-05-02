@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contactSection {
+  text-align: center;
+  padding: 80px 20px;
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.contactSection h2 {
+  font-size: 40px;
+  color: #00ffe5;
+  margin-bottom: 20px;
+  text-shadow: 0 0 8px #00ffe5;
+}
+
+.contactSection p {
+  font-size: 18px;
+  max-width: 800px;
+  margin: auto;
+  color: #cfcfcf;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  font-size: 18px;
+  color: #b0b0b0;
+}
+
+.contactInfo div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: #131313;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0, 255, 229, 0.1);
+  width: fit-content;
+}
+
+.contactInfo div span {
+  color: #00ffe5;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+/* Input field styles */
+.contactInfo input {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  /* border: 1px solid #00ffe5; */
+  border-radius: 8px;
+  background-color: #0a0a0f;
+  color: #e0e0e0;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.contactInfo input:focus {
+    border: 1px solid #00ffe5;
+    box-shadow: 0 0 8px rgba(0, 120, 255, 0.5);
+}
+
+/* Submit button styles */
+.submitButton {
+  margin: 40px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  background: linear-gradient(135deg, #00ffe1, #0078ff);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 255, 255, 0.3);
+}
+
+.submitButton:disabled {
+  background: #555;
+  color: #aaa;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.submitButton:hover:enabled {
+  background: linear-gradient(135deg, #0078ff, #00ffe1);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 255, 255, 0.5);
+}

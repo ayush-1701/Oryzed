@@ -12,21 +12,29 @@ The project is organized into the following directories and files:
 
 - **src/**: Contains the source code for the React application.
   - **components/**: Contains React components for different sections of the application.
-    - **About.jsx**: Displays information about the Oryzed platform.
-    - **Careers.jsx**: Outlines career opportunities at Oryzed.
-    - **Contact.jsx**: Provides contact information and a form for inquiries.
-    - **Features.jsx**: Highlights the key features of the Oryzed platform.
-    - **Header.jsx**: Contains the navigation bar and logo.
-    - **Home.jsx**: Serves as the landing page for the application.
-    - **SearchBar.jsx**: Includes a search input and button for searching legal topics.
-  - **styles/**: Contains CSS styles specific to each component.
-    - **About.css**
-    - **Careers.css**
-    - **Contact.css**
-    - **Features.css**
-    - **Header.css**
-    - **Home.css**
-    - **SearchBar.css**
+    - **Header/**: Contains the navigation bar and logo.
+      - **Header.jsx**
+      - **Header.module.css**
+    - **SearchBar/**: Includes a search input and button for searching legal topics.
+      - **SearchBar.jsx**
+      - **SearchBar.module.css**
+  - **Pages/**: Contains React components for different sections of the application.
+    - **About/**: Displays information about the Oryzed platform.
+      - **About.jsx**
+      - **About.module.css**  
+    - **Careers/**: Outlines career opportunities at Oryzed.
+      - **Careers.jsx**
+      - **Careers.module.css**
+    - **Contact/**: Provides contact information and a form for inquiries.
+      - **Contact.jsx**
+      - **Contact.module.css**
+    - **Features/**: Highlights the key features of the Oryzed platform.
+      - **Features.jsx**
+      - **Features.module.css**
+    - **Home/**: Serves as the landing page for the application.
+      - **Home.jsx**
+      - **Home.module.css**
+ 
   - **App.jsx**: The main application component that renders the Header and the main content based on the current route.
   - **index.js**: The entry point of the React application.
   - **index.css**: Contains global CSS styles for the application.

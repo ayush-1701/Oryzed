@@ -1,13 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import className from './Header.module.css';
+import logo from '../../assets/oryzed_logo.png';
 
 // import './Header.module.css';
 
 const Header = () => {
     return (
         <header className={className.header}>
-            <div className={className.logo}>Oryzed</div>
+            <div className={className.logo}>
+                <img src={logo} style={{width:"140px", height:"50px", objectFit:"cover", objectPosition:"center"}} alt="Oryzed Logo" />
+                    {/* Oryzed */}
+            </div>
             <nav className={className.nav}>
             <ul>
                     <li><Link to="/">Home</Link></li>

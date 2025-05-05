@@ -12,6 +12,7 @@ const Home = () => {
   const [showSearch, setShowSearch] = useState(false);
 
   const navigateTo = (tool) => {
+    console.log(`Navigating to ${tool}`);
     setCurrentTool(tool);
     setShowSearch(true);
   };

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Oryzed/static/css/main.04923031.chunk.css",
+    "main.js": "/Oryzed/static/js/main.4c1f0cd7.chunk.js",
+    "main.js.map": "/Oryzed/static/js/main.4c1f0cd7.chunk.js.map",
+    "runtime-main.js": "/Oryzed/static/js/runtime-main.7212b89d.js",
+    "runtime-main.js.map": "/Oryzed/static/js/runtime-main.7212b89d.js.map",
+    "static/css/2.d63e305d.chunk.css": "/Oryzed/static/css/2.d63e305d.chunk.css",
+    "static/js/2.40e42d4b.chunk.js": "/Oryzed/static/js/2.40e42d4b.chunk.js",
+    "static/js/2.40e42d4b.chunk.js.map": "/Oryzed/static/js/2.40e42d4b.chunk.js.map",
+    "index.html": "/Oryzed/index.html",
+    "static/css/2.d63e305d.chunk.css.map": "/Oryzed/static/css/2.d63e305d.chunk.css.map",
+    "static/css/main.04923031.chunk.css.map": "/Oryzed/static/css/main.04923031.chunk.css.map",
+    "static/js/2.40e42d4b.chunk.js.LICENSE.txt": "/Oryzed/static/js/2.40e42d4b.chunk.js.LICENSE.txt",
+    "static/media/all.min.css": "/Oryzed/static/media/fa-v4compatibility.ea8f94e1.woff2",
+    "static/media/oryzed_logo.f11c87c2.png": "/Oryzed/static/media/oryzed_logo.f11c87c2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7212b89d.js",
+    "static/css/2.d63e305d.chunk.css",
+    "static/js/2.40e42d4b.chunk.js",
+    "static/css/main.04923031.chunk.css",
+    "static/js/main.4c1f0cd7.chunk.js"
+  ]
+}

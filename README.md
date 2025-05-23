@@ -68,6 +68,11 @@ To get started with the project, follow these steps:
 
 5. Open your browser and go to `http://localhost:3000` to view the application.
 
+6. To start Backend, chnge directory to oryzed/backend, and run cmd:
+    ```
+    uvicorn main:app --reload
+    ```
+
 ## Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
 
